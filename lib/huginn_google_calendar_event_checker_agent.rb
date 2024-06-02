@@ -1,0 +1,4 @@
+require 'huginn_agent'
+
+#HuginnAgent.load 'huginn_google_calendar_event_checker_agent/concerns/my_agent_concern'
+HuginnAgent.register 'huginn_google_calendar_event_checker_agent/google_calendar_event_checker_agent'
