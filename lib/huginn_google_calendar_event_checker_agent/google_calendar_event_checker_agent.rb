@@ -25,37 +25,37 @@ module Agents
     event_description <<-MD
       Events look like this:
 
-         {
-           "created": "2024-06-02T10:05:50.000+00:00",
-           "creator": {
-             "email": "XXXXXXXXXX@gmail.com"
-           },
-           "end": {
-             "dateTime": "2024-06-02T14:00:00.000+02:00",
-             "timeZone": "Europe/Paris"
-           },
-           "etag": "\"XXXXXXXXXXXXXXXX\"",
-           "htmlLink": "https://www.google.com/calendar/event?eid=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-           "iCalUID": "XXXXXXXXXXXXXXXXXXXXXXXXXX@google.com",
-           "id": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
-           "kind": "calendar#event",
-           "organizer": {
-             "displayName": "XXXXXXXXXXXXX",
-             "email": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@group.calendar.google.com",
-             "self": true
-           },
-           "reminders": {
-             "useDefault": true
-           },
-           "sequence": 0,
-           "start": {
-             "dateTime": "2024-06-02T13:00:00.000+02:00",
-             "timeZone": "Europe/Paris"
-           },
-           "status": "confirmed",
-           "summary": "test new event",
-           "updated": "2024-06-02T10:05:50.005+00:00"
-         }
+          {
+            "created": "2024-06-02T10:05:50.000+00:00",
+            "creator": {
+              "email": "XXXXXXXXXX@gmail.com"
+            },
+            "end": {
+              "dateTime": "2024-06-02T14:00:00.000+02:00",
+              "timeZone": "Europe/Paris"
+            },
+            "etag": "\"XXXXXXXXXXXXXXXX\"",
+            "htmlLink": "https://www.google.com/calendar/event?eid=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "iCalUID": "XXXXXXXXXXXXXXXXXXXXXXXXXX@google.com",
+            "id": "XXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "kind": "calendar#event",
+            "organizer": {
+              "displayName": "XXXXXXXXXXXXX",
+              "email": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX@group.calendar.google.com",
+              "self": true
+            },
+            "reminders": {
+              "useDefault": true
+            },
+            "sequence": 0,
+            "start": {
+              "dateTime": "2024-06-02T13:00:00.000+02:00",
+              "timeZone": "Europe/Paris"
+            },
+            "status": "confirmed",
+            "summary": "test new event",
+            "updated": "2024-06-02T10:05:50.005+00:00"
+          }
 
     MD
 
